@@ -3,6 +3,7 @@ import {Routes,Route,BrowserRouter} from 'react-router-dom'
 
 
 import Home from './Home'
+import Tierra from '../Pages/Tierra'
 import NavBar from '../Components/BarNav'
 
 
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/tierra" element={<Tierra />} />
 
         
       </Routes>

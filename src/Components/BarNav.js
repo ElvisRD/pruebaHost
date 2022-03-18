@@ -17,6 +17,7 @@ export default function Nav(){
         }
     }
 
+   
 
     return( 
         <div className="w-full fixed bg-black z-10">
@@ -33,8 +34,9 @@ export default function Nav(){
                         </button>
                     </div>
                     <nav id='nav' className={openMenu === false ? ("flex-col flex-grow sm:pb-0 hidden sm:flex sm:justify-center sm:flex-row "):("flex flex-col w-screen flex-grow ml-0 sm:pb-0 sm:justify-end sm:flex")}>
-                        <Link to="/" className="px-4 text-white text-center py-2 text-md font-semibold bg-trasparent sm:rounded-lg sm:mt-0 hover:text-white hover:bg-gray-800 focus:bg-gray-800 focus:outline-none focus:shadow-outline font-Link">Home</Link>
-                        
+                        <Link  to="/" className="px-4 text-white text-center py-2 text-md font-semibold bg-trasparent sm:rounded-lg sm:mt-0 hover:text-white hover:bg-gray-800 focus:bg-gray-800 focus:outline-none focus:shadow-outline font-Link">Home</Link>
+                        <Link  to="/tierra" className='px-4 text-white text-center py-2 text-md font-semibold bg-transparent sm:rounded-lg sm:mt-0 sm:ml-4 hover:text-white hover:bg-gray-800  focus:outline-none focus:shadow-outline font-Link'>Tierra</Link>
+
                     </nav>
                 </div>
         </div>
