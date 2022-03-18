@@ -1,7 +1,5 @@
 import React from 'react'
-
-
-
+import 'tw-elements';
 export default function Carrusel({imgInicio, imagenes}){
 
     return(
